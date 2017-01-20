@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0" id="com.drajit.patient" version="1.1.0" versionCode="100003">
  
-    <name>Dr Ajit Nalawade RHEUMATOLOGIST</name>
+    <name>Dr Ajit Nalawade Rheumatologist</name>
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
 	<preference name="SplashScreen" value="splash" />
@@ -10,7 +10,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
     <description>
-      Dr Ajit Nalawade, MBBS, DNB, FACR, MNAMS, FCPS, RHEUMATOLOGIST Health App
+      Dr Ajit Nalawade, MBBS, DNB, FACR, MNAMS, FCPS, Rheumatologist Health App
     </description> 
     <author href="http://www.arth.tech" email="support@arth.tech">
         Arth Tech
