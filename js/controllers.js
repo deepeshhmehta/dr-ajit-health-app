@@ -1870,14 +1870,14 @@ angular.module('PasswordConfirm', []).directive('changePasswordC', function () {
         .controller('RecordsViewCtrl', function ($scope, $http, $state, $stateParams, $sce, $rootScope, $ionicLoading, $cordovaPrinter, $ionicModal, $timeout) {
             $scope.interface = window.localStorage.getItem('interface_id');
             unset(['patientId', 'doctorId', 'recId']);
-            $scope.userId = get('id');
+            $scope.userId = get('doctorid');
             $scope.category = [];
             $scope.catId = $stateParams.id;
             $scope.shared = $stateParams.shared;
             $scope.limit = 3;
             $scope.recId = [];
             $scope.recIds = [];
-            $scope.userId = get('id');
+            // $scope.userId = get('id');
             $scope.patientId = get('id');
             $scope.repeatFreq = [];
             $scope.repeatNo = [];
